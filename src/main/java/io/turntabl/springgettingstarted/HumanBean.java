@@ -6,6 +6,16 @@ public class HumanBean {
 
     public HumanBean(){}
 
+    public HumanBean getBestfriend() {
+        return bestfriend;
+    }
+
+    public void setBestfriend(HumanBean bestfriend) {
+        this.bestfriend = bestfriend;
+    }
+
+    public HumanBean bestfriend;
+
     public String getFName(){return this.fname;}
 
     public void setFName(String fname){this.fname = fname;}
